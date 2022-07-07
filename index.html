@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/d51f589380.js"></script>
+    <title>Fluent Flashcard</title>
+</head>
+<body>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="flashcard">
+                <h2 class="flashcard-word">Student</h2>
+        
+                <div class="flashcard-content">
+                    <img class="student-img" src="assets/student-removebg-preview.png" alt="">
+                    <h1 class="answer">دانش آموز</h1>
+                    <p class="phonetic"><span>ˈstudn̩t</span> :فونتیک کلمه</p>
+                    <audio id="student-voice" src="audios/student.mp3"></audio>
+                    <button onclick="PlayStudentAudio()" class="flashcard-btn btn"><i class="fa-solid fa-volume-high"></i> تلفظ کلمه</button>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flashcard">
+                <h2 class="flashcard-word">Car</h2>
+        
+                <div class="flashcard-content">
+                    <img class="car-img" src="assets/Car (2).png" alt="">
+                    <h1 class="answer">ماشین</h1>
+                    <p class="phonetic"><span>ˈkɑr</span> :فونتیک کلمه</p>
+                    <audio id="car-voice" src="audios/car.mp3"></audio>
+                    <button onclick="PlayCarAudio()" class="flashcard-btn btn"><i class="fa-solid fa-volume-high"></i> تلفظ کلمه</button>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flashcard">
+                <h2 class="flashcard-word">Gun</h2>
+        
+                <div class="flashcard-content">
+                    <img class="gun-img" src="assets/gun.png" alt="">
+                    <h1 class="answer">تفنگ</h1>
+                    <p class="phonetic"><span>ˈɡʌn</span> :فونتیک کلمه</p>
+                    <audio id="gun-voice" src="audios/gun.mp3"></audio>
+                    <button onclick="PlayGunAudio()" class="flashcard-btn btn"><i class="fa-solid fa-volume-high"></i> تلفظ کلمه</button>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flashcard">
+                <h2 class="flashcard-word">Television</h2>
+        
+                <div class="flashcard-content">
+                    <img class="tv-img" src="assets/tv.png" alt="">
+                    <h1 class="answer">تلویزیون</h1>
+                    <p class="phonetic"><span>ˈtɛləˌvɪʒən</span> :فونتیک کلمه</p>
+                    <audio id="television-voice" src="audios/television.mp3"></audio>
+                    <button onclick="PlayTvAudio()" class="flashcard-btn btn"><i class="fa-solid fa-volume-high"></i> تلفظ کلمه</button>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flashcard">
+                <h2 class="flashcard-word">Thinking</h2>
+        
+                <div class="flashcard-content">
+                    <img class="thinking-img" src="assets/thinking.png" alt="">
+                    <h1 class="answer">فکر کردن</h1>
+                    <p class="phonetic"><span>ˈθɪŋkɪŋ</span> :فونتیک کلمه</p>
+                    <audio id="thinking-voice" src="audios/thinking.mp3"></audio>
+                    <button onclick="PlayThinkingAudio()" class="flashcard-btn btn"><i class="fa-solid fa-volume-high"></i> تلفظ کلمه</button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

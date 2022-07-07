@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+    --persian-font: IRANMarker;
+    --english-font: 'Poppins', sans-serif;
+    --english-font-weight: 500;
+    --persian-font-weight: 600;
+
+    --primary-color: #095af0;
+    --primary-hover: #0a2d6d;
+    --white-color: #FFF;
+    --yellow-color: #ffff00;
+    --yellow-hover: #cfcf05;
+    --green-color: #12cf51;
+    --green-hover: #0e9e3e;
+    --blue-color: #4dcafc;
+    --blue-hover: #1eace4;
+}
+@font-face {
+    font-family: IRANMarker;
+    src: url(IRANMarker.ttf);
+}
+::selection {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, button {
+    font-family: var(--persian-font);
+    font-weight: var(--persian-font-weight);
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+img {
+    user-select: none;
+}
+.btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 3px;
+    width: 150px;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--primary-hover);
+}
+.swiper {
+    width: 350px;
+    height: 550px;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+.flashcard {
+    background-color: var(--white-color);
+    padding: 1.7rem;
+    position: relative;
+    height: 100%;
+}
+.flashcard-word {
+    font-family: var(--english-font);
+    font-weight: var(--english-font-weight);
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.student-img {
+    width: 160px;
+}
+.car-img {
+    width: 200px;
+}
+.gun-img {
+    width: 230px;
+}
+.tv-img {
+    width: 210px;
+}
+.thinking-img {
+    width: 200px;
+}
+.flashcard-content {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.answer {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+.phonetic {
+    color: #000;
+    font-size: 1.2rem;
+}
+.phonetic span {
+    font-family: var(--english-font);
+    font-weight: var(--english-font-weight);
+}
+.swiper-slide:nth-child(1n) {
+    background-color: rgb(0, 140, 255);
+}
+.swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+}
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(0, 140, 255);
+}
+.swiper-slide:nth-child(4n) {
+    background-color: rgb(0, 140, 255);
+}
+.swiper-slide:nth-child(5n) {
+    background-color: rgb(0, 140, 255);
+}
